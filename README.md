@@ -40,7 +40,7 @@ Inspired by the phrase "to give a cue", Cuei translates your intentions into aut
 
 
 **🚀 Getting Started**<br>
-*Clone the repo:*<br>
+*1. Clone the repo:*<br>
 ```
 git clone https://github.com/your-org/cuei-core.git
 cd cuei-core
@@ -66,6 +66,7 @@ source venv/bin/activate  # Mac/Linux
 
 <br>
 
+*3. Install dependencies from requirements.txt*
 ```
 # Install your dependencies
 
@@ -74,10 +75,28 @@ pip install -r requirements.txt
 
 <br>
 
-*3. Configure environment variables:* Add your OpenAI API keys, integration secrets, etc.<br><br>
+*3. Configure environment variables:*<br>
+Create a .env file and add the following API keys.<br>
+```
+OPENAI_API_KEY= ""
+LANGSMITH_TRACING= ""
+LANGSMITH_ENDPOINT= ""
+LANGSMITH_API_KEY= ""
+LANGSMITH_PROJECT= ""
+TAVILY_API_KEY = ""
+```
+<br>
 
-**🎯 The Mission**<br><br>
+- ***LINKS TO GET ALL THE API KEYS LISTED AT THE BOTTOM OF THIS FILE***
+
+**🎯 The Mission**<br>
 Cuei Core makes vibe coding possible — transforming ideas into real code and automated processes, without the need for manual programming.<br><br>
 
 **📄 License**<br>
-Cuei Core includes software developed by LangChain (https://github.com/langchain-ai/langchain), licensed under the MIT License.
+Cuei Core includes software developed by LangChain (https://github.com/langchain-ai/langchain), licensed under the MIT License.<br><br>
+
+
+**Get API's from the following links**<br>
+- https://platform.openai.com/api-keys<br>
+- https://smith.langchain.com/ - Find all langsmith keys here.<br>
+- https://tavily.com/ - This isn't really needed as of now but it's a useful search tool.
