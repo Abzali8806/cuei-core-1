@@ -110,5 +110,5 @@ Cuei Core makes vibe coding possible —
 transforming ideas into real code and automated processes, without the need for manual programming.<br><br>
 
 
-*📄 License*
+*📄 License*<br>
 Cuei Core includes software developed by LangChain (https://github.com/langchain-ai/langchain), licensed under the MIT License.
