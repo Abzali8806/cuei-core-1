@@ -1,11 +1,11 @@
-**Cuei Core 🧠** <br>
+***Cuei Core 🧠*** <br>
 Cuei Core is the engine behind Cuei — the brains that power the vibe coding experience.<br><br>
 
 Inspired by the phrase "to give a cue", Cuei translates your intentions into automated workflows and code.
 While Cuei App provides the user interface, Cuei Core handles all the heavy lifting under the hood.<br><br>
 
 
-*🔍 What is Cuei Core?*<br>
+**🔍 What is Cuei Core?**<br>
 Cuei Core is a backend service that:<br>
 
 Interprets user prompts from Cuei App<br>
@@ -21,7 +21,7 @@ Outputs deployable workflows that integrate into real-world systems<br>
 Cuei Core operates as a standalone service in its own repository, built to integrate seamlessly with Cuei App.<br><br>
 
 
-*🏗️ How It Works*<br>
+**🏗️ How It Works**<br>
 Cuei App sends user input (the "cue") to Cuei Core.<br>
 
 Cuei Core processes the input:<br>
@@ -37,7 +37,7 @@ Generates code, logic flows, or integration steps<br>
 Returns structured outputs (code, configurations) back to Cuei App for user review and deployment.<br><br>
 
 
-*🧩 Key Components*
+**🧩 Key Components**
 Prompt Processing Engine
 Refines user inputs and transforms them into model-ready prompts.<br>
 
@@ -51,7 +51,7 @@ Workflow Orchestrator
 Sequences generated logic into coherent, executable workflows.<br><br>
 
 
-*💻 Tech Stack*
+**💻 Tech Stack**
 Python<br>
 
 LangChain<br>
@@ -63,7 +63,7 @@ Custom Integration Scripts<br>
 FastAPI (or your chosen framework) for handling API communication with Cuei App<br><br>
 
 
-*🚀 Getting Started*<br>
+**🚀 Getting Started**<br>
 
 1. Clone the repo:<br>
 
@@ -105,10 +105,10 @@ Cuei Core responds with generated code or workflows.
 Both projects live in separate repositories for modular development.
  --> 
 
-*🎯 The Mission*<br>
+**🎯 The Mission**<br>
 Cuei Core makes vibe coding possible —
 transforming ideas into real code and automated processes, without the need for manual programming.<br><br>
 
 
-*📄 License*<br>
+**📄 License**<br>
 Cuei Core includes software developed by LangChain (https://github.com/langchain-ai/langchain), licensed under the MIT License.
