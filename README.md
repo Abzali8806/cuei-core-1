@@ -6,61 +6,46 @@ While Cuei App provides the user interface, Cuei Core handles all the heavy lift
 
 
 **🔍 What is Cuei Core?**<br>
-Cuei Core is a backend service that:<br>
-
-Interprets user prompts from Cuei App<br>
-
-Generates code (Python, LangChain, and custom integrations)<br>
-
-Orchestrates workflows and connects to third-party APIs<br>
-
-Handles prompt engineering, AI model interactions (like GPT), and logic sequencing<br>
-
-Outputs deployable workflows that integrate into real-world systems<br>
-
-Cuei Core operates as a standalone service in its own repository, built to integrate seamlessly with Cuei App.<br><br>
+*Cuei Core is a backend service that:*<br>
+- Interprets user prompts from Cuei App<br>
+- Generates code (Python, LangChain, and custom integrations)<br>
+- Orchestrates workflows and connects to third-party APIs<br>
+- Handles prompt engineering, AI model interactions (like GPT), and logic sequencing<br>
+- Outputs deployable workflows that integrate into real-world systems<br>
+- Cuei Core operates as a standalone service in its own repository, built to integrate seamlessly with Cuei App.<br><br>
 
 
 **🏗️ How It Works**<br>
 Cuei App sends user input (the "cue") to Cuei Core.<br>
 
-Cuei Core processes the input:<br>
-
-Analyzes intent<br>
-
-Uses prompt engineering to structure requests<br>
-
-Interacts with LLMs (e.g., GPT-4)<br>
-
-Generates code, logic flows, or integration steps<br>
-
-Returns structured outputs (code, configurations) back to Cuei App for user review and deployment.<br><br>
+- Cuei Core processes the input:<br>
+- Analyzes intent<br>
+- Uses prompt engineering to structure requests<br>
+- Interacts with LLMs (e.g., GPT-4)<br>
+- Generates code, logic flows, or integration steps<br>
+- Returns structured outputs (code, configurations) back to Cuei App for user review and deployment.<br><br>
 
 
-**🧩 Key Components**
+**🧩 Key Components**<br>
 Prompt Processing Engine
-Refines user inputs and transforms them into model-ready prompts.<br>
+- Refines user inputs and transforms them into model-ready prompts.<br>
 
 Code Generation Module
-Generates Python, LangChain, and custom logic scripts for workflows.<br>
+- Generates Python, LangChain, and custom logic scripts for workflows.<br>
 
 Integration Layer
-Connects with third-party tools (Airtable, APIs, Webhooks) to build end-to-end automations.<br>
+- Connects with third-party tools (Airtable, APIs, Webhooks) to build end-to-end automations.<br>
 
 Workflow Orchestrator
-Sequences generated logic into coherent, executable workflows.<br><br>
+- Sequences generated logic into coherent, executable workflows.<br><br>
 
 
 **💻 Tech Stack**
-Python<br>
-
-LangChain<br>
-
-OpenAI GPT models (or other LLMs)<br>
-
-Custom Integration Scripts<br>
-
-FastAPI (or your chosen framework) for handling API communication with Cuei App<br><br>
+- Python<br>
+- LangChain<br>
+- OpenAI GPT models (or other LLMs)<br>
+- Custom Integration Scripts<br>
+- FastAPI (or your chosen framework) for handling API communication with Cuei App<br><br>
 
 
 **🚀 Getting Started**<br>
